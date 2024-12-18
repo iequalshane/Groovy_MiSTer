@@ -11,3 +11,6 @@ set_global_assignment -name VERILOG_FILE rtl/vga.v
 set_global_assignment -name VERILOG_FILE rtl/sound.v
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/ddram.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Groovy.sv
+set_global_assignment -name VERILOG_FILE rtl/JTFRAME/jtframe_rpwp_ram.v
+set_global_assignment -name VERILOG_FILE rtl/JTFRAME/jtframe_linebuf.v
+set_global_assignment -name VERILOG_FILE rtl/JTFRAME/jtframe_hsize.v
